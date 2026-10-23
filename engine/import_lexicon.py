@@ -273,7 +273,10 @@ class LexiconImporter:
             conn.executemany("INSERT OR REPLACE INTO bdb_entries VALUES (?,?,?,?,?)",
                              self.bdb_rows)
             # Link the lemmas. Transliteration and gloss are filled only where empty.
-            conn.execute("UPDATE lemmas SET lex_key = NULL, headword = NULL")
+            # Clear what an earlier run filled in, so a rerun never keeps stale values.
+            # Only Strong's-numbered lemmas are touched; the prefix hints ("in", "and") stay.
+            conn.execute("UPDATE lemmas SET lex_key = NULL, headword = NULL, "
+                         "transliteration = NULL, gloss_hint = NULL WHERE strongs LIKE 'H%'")
             conn.executemany("UPDATE lemmas SET lex_key = ? WHERE lemma_id = ?",
                              [(k, i) for i, k in self.links])
             conn.execute("""
