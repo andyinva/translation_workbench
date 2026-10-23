@@ -85,7 +85,47 @@ class SourceSchema(Schema):
             strongs         TEXT,               -- Strong's number if available
             transliteration TEXT,
             gloss_hint      TEXT,               -- short lexicon gloss, a starting point only
+            headword        TEXT,               -- the dictionary form in the original script
+            lex_key         TEXT,               -- id of the lexicon_entries row (filled by import_lexicon.py)
             UNIQUE (language, lemma, strongs)
+        )
+        """,
+        # Lexicon tables (filled by import_lexicon.py). Lexical index entries are
+        # the bridge: a lemma points to one through lemmas.lex_key, and the entry
+        # points on to a Strong's entry and a BDB entry.
+        """
+        CREATE TABLE IF NOT EXISTS lexicon_entries (
+            lex_key         TEXT PRIMARY KEY,   -- lexical index id such as 'aac'
+            language        TEXT,               -- 'heb' or 'arc'
+            headword        TEXT,
+            transliteration TEXT,
+            pos             TEXT,               -- part of speech code from the index
+            short_def       TEXT,               -- one or two words
+            bdb_id          TEXT,               -- id of the bdb_entries row
+            strongs_ref     TEXT,               -- Strong's number if the index gives one
+            twot_ref        TEXT                -- TWOT number, for reference only
+        )
+        """,
+        """
+        CREATE TABLE IF NOT EXISTS strongs_entries (
+            strongs         TEXT PRIMARY KEY,   -- 'H1' and so on
+            language        TEXT,               -- 'heb', 'arc' or 'x-pn' (personal name)
+            headword        TEXT,
+            transliteration TEXT,
+            pronunciation   TEXT,
+            pos             TEXT,
+            source_text     TEXT,               -- word origin
+            meaning         TEXT,
+            usage           TEXT                -- how the KJV renders the word
+        )
+        """,
+        """
+        CREATE TABLE IF NOT EXISTS bdb_entries (
+            bdb_id          TEXT PRIMARY KEY,   -- such as 'a.ab.ab'
+            entry_type      TEXT,
+            headword        TEXT,
+            pos             TEXT,
+            content         TEXT                -- the whole entry as plain text
         )
         """,
         # One row per word in the source text, in reading order.
