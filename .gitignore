@@ -1,0 +1,18 @@
+# SQLite databases (publish these as release files instead)
+*.db
+*.db-journal
+*.sqlite
+
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local settings and editor files
+.env
+.vscode/
+.idea/
+
+# Raw downloaded source texts (record where to get them in docs instead)
+sources/raw/
