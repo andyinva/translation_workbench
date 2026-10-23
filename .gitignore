@@ -16,3 +16,7 @@ venv/
 
 # Raw downloaded source texts (record where to get them in docs instead)
 sources/raw/
+
+# Working reference material, not published
+Materials/
+*Zone.Identifier
