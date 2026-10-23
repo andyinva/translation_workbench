@@ -103,28 +103,61 @@ class SourceSchema(Schema):
             surface   TEXT NOT NULL,            -- the part as written in the text
             lemma_id  INTEGER REFERENCES lemmas(lemma_id),
             morph     TEXT,                     -- morphology code
+            source_id TEXT,                     -- immutable word id from the source text (OSHB ids
+                                                -- such as 01xeN); parts of one word share it
             UNIQUE (text_id, book, chapter, verse, position)
         )
         """,
         # Versification map. Hebrew and English Bibles number some verses
         # differently (Psalm titles, a few verses in Genesis, Joel, Malachi and
         # others). This lets verse-level comparison with the English translations
-        # in bibles.db line up the right verses.
+        # in bibles.db line up the right verses. Only verses whose numbering
+        # differs are listed; a verse that is not listed has the same number in both.
         """
         CREATE TABLE IF NOT EXISTS verse_map (
             text_id      INTEGER NOT NULL REFERENCES texts(text_id),
             book         INTEGER NOT NULL,
             chapter      INTEGER NOT NULL,      -- numbering used by this source text
             verse        INTEGER NOT NULL,
+            part         TEXT NOT NULL DEFAULT '',  -- 'a' or 'b' when only part of a split verse is meant
             eng_chapter  INTEGER NOT NULL,      -- numbering used by English Bibles
             eng_verse    INTEGER NOT NULL,
+            eng_part     TEXT NOT NULL DEFAULT '',  -- part letter on the English side, if any
             note         TEXT,                  -- for split or merged verses
-            PRIMARY KEY (text_id, book, chapter, verse)
+            PRIMARY KEY (text_id, book, chapter, verse, part)
         )
         """,
+        # Alternative readings and editorial notes found in the source text, for
+        # example a ketiv (written) word with its qere (read aloud) word. The
+        # words table keeps the main text only; each note points to the word it
+        # follows through base_source_id (the same value as words.source_id).
+        # A note with readings gets one row per reading. A note with no
+        # reading gets one row with its text in content.
+        """
+        CREATE TABLE IF NOT EXISTS source_notes (
+            note_id           INTEGER PRIMARY KEY,
+            text_id           INTEGER NOT NULL REFERENCES texts(text_id),
+            book              INTEGER NOT NULL,
+            chapter           INTEGER NOT NULL,
+            verse             INTEGER NOT NULL,
+            word_number       INTEGER NOT NULL DEFAULT 0,  -- whole word the note follows (0 = none)
+            base_source_id    TEXT,             -- source id of that word
+            note_type         TEXT NOT NULL DEFAULT '',    -- 'variant', 'alternative', 'exegesis' or ''
+            catch_word        TEXT,             -- the word the note is about, as the source gives it
+            reading_type      TEXT,             -- for example 'x-qere'
+            surface           TEXT,             -- the reading as written
+            lemma             TEXT,             -- raw OSHB lemma code(s) of the reading
+            morph             TEXT,             -- raw OSHB morph code(s) of the reading
+            reading_source_id TEXT,             -- source id(s) of the reading's words
+            content           TEXT              -- full note text when there is no reading
+        )
+        """,
+        "CREATE INDEX IF NOT EXISTS idx_notes_ref  ON source_notes(book, chapter, verse)",
+        "CREATE INDEX IF NOT EXISTS idx_notes_base ON source_notes(base_source_id)",
         # Fast lookups by verse and by lemma (the "all 12 uses" query).
         "CREATE INDEX IF NOT EXISTS idx_words_ref   ON words(book, chapter, verse)",
         "CREATE INDEX IF NOT EXISTS idx_words_lemma ON words(lemma_id)",
+        "CREATE INDEX IF NOT EXISTS idx_words_source ON words(source_id)",
         # A view that lists every occurrence of every lemma with its location.
         # There is no separate occurrences table, so the data cannot drift out of sync.
         """
