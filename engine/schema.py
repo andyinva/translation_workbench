@@ -38,6 +38,11 @@ class Schema:
     # Subclasses fill this with CREATE TABLE / INDEX / VIEW statements.
     STATEMENTS = []
 
+    # Plain columns added to tables after the first release, as (table, column, type).
+    # Running create() on an older database adds any that are missing, so a
+    # database does not have to be deleted and rebuilt when a column is added.
+    ADD_COLUMNS = []
+
     def __init__(self, db_path):
         self.db_path = Path(db_path).expanduser().resolve()
 
@@ -50,11 +55,20 @@ class Schema:
             conn.execute("PRAGMA foreign_keys = ON")
             for sql in self.STATEMENTS:
                 conn.execute(sql)
+            self.add_missing_columns(conn)
             self.after_create(conn)
             conn.commit()
         finally:
             conn.close()
         print(f"Database ready: {self.db_path}")
+
+    def add_missing_columns(self, conn):
+        """Add the columns listed in ADD_COLUMNS to tables that lack them."""
+        for table, column, definition in self.ADD_COLUMNS:
+            existing = [row[1] for row in conn.execute(f"PRAGMA table_info({table})")]
+            if existing and column not in existing:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
+                print(f"Added column {table}.{column}")
 
     def after_create(self, conn):
         """Hook for subclasses that need to insert starter rows."""
@@ -62,6 +76,14 @@ class Schema:
 
 class SourceSchema(Schema):
     """Tables for the shared original-language data."""
+
+    # Columns added after the first release (see Schema.ADD_COLUMNS).
+    ADD_COLUMNS = [
+        ("lemmas", "headword", "TEXT"),
+        ("lemmas", "lex_key", "TEXT"),
+        ("words", "word_type", "TEXT"),
+        ("words", "editions", "TEXT"),
+    ]
 
     STATEMENTS = [
         # One row per source text, for example the Hebrew OT or the Greek NT.
@@ -145,6 +167,10 @@ class SourceSchema(Schema):
             morph     TEXT,                     -- morphology code
             source_id TEXT,                     -- immutable word id from the source text (OSHB ids
                                                 -- such as 01xeN); parts of one word share it
+            word_type TEXT,                     -- Greek NT only: which editions carry the word
+                                                -- ('NKO' = all, 'N...' = Nestle-Aland text,
+                                                -- 'K' = traditional text only, 'O' = other)
+            editions  TEXT,                     -- Greek NT only: the editions listing this word
             UNIQUE (text_id, book, chapter, verse, position)
         )
         """,

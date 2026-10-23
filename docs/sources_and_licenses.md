@@ -25,13 +25,52 @@ Put this file in `docs/`.
 - **Versification:** Masoretic (the file header gives refSystem Bible.MT).
   `wlc/VerseMap.xml` is the likely source for the `verse_map` table.
 
+## Open Scriptures Hebrew Lexicon (HebrewLexicon)
+
+- **Used for:** Hebrew headwords, transliteration, short glosses (lexical index),
+  Strong's Hebrew Dictionary and Brown-Driver-Briggs text (tables
+  `lexicon_entries`, `strongs_entries`, `bdb_entries`, and the link
+  `lemmas.lex_key`).
+- **Where it came from:** https://github.com/openscriptures/HebrewLexicon
+  (local copy: `hebrewbible/Dump/HebrewLexicon-master/HebrewLexicon-master`).
+- **Terms (verified from its readme.md):** released under Creative Commons
+  Attribution 4.0 International. The actual texts of Brown, Driver, Briggs and
+  of Strong's Hebrew Dictionary remain in the public domain.
+- **Attribution required:** credit the Open Scriptures Hebrew Bible Project.
+  TWOT numbers are included for reference only (the readme says the TWOT is
+  not transcribed).
+
+## STEPBible TAGNT (Translators Amalgamated Greek New Testament)
+
+- **Used for:** the Greek New Testament, with a dictionary form, disambiguated
+  Strong's number and morphology on every word, from all the major Greek
+  editions (Nestle-Aland 27/28, Tyndale House, SBL, Westcott-Hort, Tregelles,
+  Textus Receptus, Byzantine). Stored in `words` (text name "TAGNT"), `lemmas`,
+  `source_notes` and `verse_map`.
+- **Where it came from:** https://github.com/STEPBible/STEPBible-Data, folder
+  "Translators Amalgamated OT+NT", the two files named "TAGNT ...".
+- **Terms (verified from the file header and the repository README):** CC BY 4.0.
+  Data created by www.STEPBible.org based on work at Tyndale House, Cambridge.
+- **Attribution required:** credit STEP Bible (www.STEPBible.org) and Tyndale House.
+- **Conditions in the header worth remembering:** the data may be reformatted
+  and included in software or publications without asking permission, and any
+  changes should be noted. The header asks others not to redistribute the raw
+  files themselves and to refer people to github.com/STEPBible instead. The
+  workbench therefore publishes only its own database, not the TAGNT files.
+- **Not imported:** the English wording (based on the Berean Study Bible, used
+  by STEPBible with permission), the Spanish glosses and the context glosses.
+  Only the dictionary-form gloss from the Tyndale Brief Lexicon (TBESG) is kept.
+- **Greek text choice:** the file merges all editions. `words.word_type` says
+  which editions carry each word, so the text a project follows is a setting,
+  not a baked-in choice.
+- **Local copy:** none needed. Download again from the repository above; keep
+  the files under `sources/raw/` (ignored by Git).
+
 ## Still to verify before use or publication
 
 | Source | Planned use | Status |
 |---|---|---|
 | Rahlfs 1935 Septuagint (`LXX-Rahlfs-1935-master`) | Greek Old Testament lemmas and text | License not yet checked. Texts derived from CCAT can carry redistribution limits. |
-| Hebrew lexicon files (`Lexicon`, `Lex2`: BDB, Strong's, lexical index) | Gloss hints in the `lemmas` table | License to be confirmed from the source README. |
-| Greek New Testament source | Greek NT lemmas and text | Not chosen yet. |
 | `bibles.db` (English translations) | Verse-level comparison, read at run time | Local use only. Never copied into this repository. The six translations under copyright (JUB, LEB, NET, LIT, MKJ, BBE) stay out of anything published. |
 | Gateway Translation master JSON | Legacy notes, imported as reference | The author's own work. Imported with a `legacy_` label. |
 
