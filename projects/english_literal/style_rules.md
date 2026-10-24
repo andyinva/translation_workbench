@@ -9,6 +9,7 @@ Each rule is marked:
 - **[decided]**: you made this decision. It is also logged in the `decisions` table.
 - **[proposed]**: my default, not yet confirmed. Change it here when you decide,
   and log the change as a decision.
+- **[open]**: a question with no default yet.
 
 ## 1. Purpose and style
 
@@ -90,6 +91,11 @@ Each rule is marked:
 ## 6. Names of people and places
 
 - **[decided]** Use the familiar English forms: Jesus, Moses, Jerusalem, Isaac.
+- **[decided]** The Hebrew definite article before a proper name is not translated
+  ("Machpelah", not "the Machpelah"; "Moriah", not "the Moriah"). This covers
+  names of places, peoples and persons. An exception is recorded in the glossary
+  `rule` field when English really keeps the article (a title such as "the
+  Adversary", or a name English always uses with "the").
 - **[proposed]** The familiar form is the one in the major English translations
   (KJV and ASV spelling, modernised where the two differ). The glossary entry
   for a name has `category` = name and `tier` = 3.
@@ -113,6 +119,14 @@ Each rule is marked:
 - **[proposed]** Words that English needs but the original does not have are put in
   square brackets: "the [one] who". No italics. A word that must be added
   often (such as a copula) is covered by a glossary rule.
+- **[decided]** A word with no English equivalent (the direct object marker אֵת,
+  H853, is the main case) gets a glossary entry whose rendering is the fixed token
+  `(none)`, with category `term` and a rule saying why. An empty rendering is never
+  used, because empty also means "not yet decided". A pronoun suffix on the marker
+  (as in "buried him") is translated as the pronoun; only the marker is `(none)`.
+- **[decided]** Second person pronouns (אַתָּה and the others) are rendered "you"
+  everywhere. Number and gender stay in the source tagging, and a verse note
+  mentions them only where they are critical to the meaning.
 - **[proposed]** The definite article is translated where the source has it and is
   not added where the source lacks it, unless English cannot do without it.
 - **[proposed]** Numbers, weights and measures keep their source units (cubit,

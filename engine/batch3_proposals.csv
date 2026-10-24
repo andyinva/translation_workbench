@@ -1,0 +1,3 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+9225,main,term,,(none),,Not translated. Marks the direct object. A pronoun suffix on it (as in buried him) is translated as the pronoun.,Decided 2026-10-24: no-translation words use the token (none); empty renderings are refused so empty cannot mean undecided.,proposed
+9286,main,word,,you,,Number and gender are kept in the source tagging; a verse note mentions them only where critical.,"Decided 2026-10-24: plain you everywhere, with number or gender noted when critical.",proposed

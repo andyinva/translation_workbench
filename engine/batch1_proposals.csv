@@ -1,0 +1,28 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+4421,main,divine_name,,God,,,Decided in session 2 (decision 3): Elohim is God.,proposed
+3060,main,divine_name,,Yahweh,,,Decided in session 2 (decision 3): the name is Yahweh.,proposed
+9520,main,word,,and,,,"Style rule: waw is always translated and, never dropped.",proposed
+9521,main,word,,the,,Translate where the source has it; never add it.,Style rule on the definite article.,proposed
+9524,main,word,,to,for; of,"Use for when to would not be English, e.g. the person benefited; record in alignment if outside this list.",Most common basic sense; the glossary lists the allowed alternatives so departures are visible.,proposed
+9519,main,word,,in,with; by; among,,Basic locative sense is the most common and most literal.,proposed
+9525,main,word,,from,out of; than,Use than only for comparison.,Basic sense is separation; comparison use is the only fixed exception.,proposed
+9523,main,word,,like,as,,Literal comparison particle.,proposed
+1818,main,word,,be,become; come to pass,"Prefer be. Use become only when the sense is a change of state (e.g. Gen 2:7, 3:22).","Most literal; Gen 1:3 reads Let light be, and light was.",proposed
+3653,main,word,,all,every; whole,Use every before a singular noun without the article.,Literal and covers the range of uses.,proposed
+5883,main,word,,say,,,Plain literal rendering; the many speech introductions in Genesis 1 keep one verb.,proposed
+4068,main,word,,eat,,,Plain literal rendering.,proposed
+3111,main,word,,day,,,Plain literal rendering; the day of creation and ordinary day share the word.,proposed
+6455,main,word,,tree,,,Plain literal rendering.,proposed
+6279,main,word,,on,upon; over; above; against,"Choose by context; over for Gen 1:2, 1:20.",Basic locative sense with allowed alternatives.,proposed
+8664,main,word,,woman,wife,"Use wife only where the context is marriage (Gen 2:24, 3:6 with her husband).",Same word covers both; the allowed list makes the departure visible.,proposed
+8712,main,word,,heavens,,,Plural form in Hebrew; kept plural to stay literal.,proposed
+1429,main,word,,garden,,,Plain literal rendering.,proposed
+9517,main,word,,between,,,Plain literal rendering.,proposed
+4229,main,word,,to,toward; into,,Basic direction sense.,proposed
+1787,main,word,,he,she; it; that,Gender and number follow the source; pronoun is supplied only when English needs it.,Pronoun covers three persons in Hebrew spelling; context decides.,proposed
+2882,main,word,,good,,,Plain literal rendering; the repeated refrain in Genesis 1 must stay uniform.,proposed
+7660,main,word,,call,,,Plain literal rendering; naming uses are covered by the same verb.,proposed
+3878,main,word,,not,no,,Plain negative.,proposed
+7753,main,word,,see,,,Plain literal rendering.,proposed
+4063,main,word,,luminary,light,,"Rare word (19 uses); luminary keeps it apart from or, light.",proposed
+6097,main,word,,bird,flying creature,,"Plain; the Genesis 1 use is flying creatures in the Hebrew, check the sheet.",proposed

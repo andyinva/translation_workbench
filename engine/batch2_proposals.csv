@@ -1,0 +1,53 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+4505,main,name,3,Machpelah,,"The Hebrew article before the name is not translated. Meaning (fold, double) goes in a verse note, not the text.","KJV, ASV and YLT all give Machpelah in all 6 uses. Familiar form (style rule 6, tier 3). The text does not explain the name.",proposed
+4284,main,name,3,Moriah,,The Hebrew article before the name is not translated. Gen 22:14 plays on the root 'see'; handle in a verse note there.,"KJV, ASV and YLT all give Moriah in both uses (Gen 22:2, 2 Chr 3:1). Familiar form, tier 3.",proposed
+9191,main,name,3,Abraham,,Gen 17:5 explains the name; add a verse note there.,"Familiar form; the explanation in 17:5 is handled by a note, not by changing the form.",proposed
+8948,main,name,3,Sarah,,,"Familiar form, tier 3.",proposed
+2827,main,name,3,Heth,,Sons of Heth in Gen 23 are the same people as the Hittites.,"Familiar form, tier 3.",proposed
+2833,main,name,3,Hittite,,,"Familiar form for the people named from Heth, tier 3.",proposed
+6454,main,name,3,Ephron,,,"Familiar form, tier 3.",proposed
+2163,main,name,3,Hebron,,,"Familiar form, tier 3.",proposed
+3721,main,name,3,Canaan,,,"Familiar form, tier 3.",proposed
+4471,main,name,3,Mamre,,,"Familiar form, tier 3.",proposed
+896,main,word,,son,,,Plain literal rendering; 'sons of Heth' keeps the Hebrew phrase.,proposed
+9015,main,word,,which,who; that; where,"Choose by antecedent: who for persons, which for things, where after a place.","One Hebrew relative word covers all English relatives, so the allowed list makes the choice visible.",proposed
+4299,main,word,,die,,,Plain literal rendering.,proposed
+7424,main,word,,bury,,,Plain literal rendering; all 8 uses here and 133 across the Old Testament are the same act.,proposed
+8322,main,word,,field,,,"Plain literal rendering; KJV, ASV and YLT agree.",proposed
+6862,main,word,,face,before; in front of,In the set phrases 'al peney and lipney use before. The literal word face is given in a verse note.,"Literal word with a rule for the common idiom, as in KJV Gen 23:17, 19.",proposed
+8734,main,word,,hear,listen,,Plain literal rendering.,proposed
+3760,main,word,,silver,,"Keep silver everywhere, also for payment (Gen 23:9, 15, 16). Money is not used.",KJV uses money in 23:9 and silver in 23:15; one word is more consistent and more literal.,proposed
+4790,main,word,,cave,,,Plain literal rendering.,proposed
+7425,main,word,,grave,,,Plain literal rendering; 'possession of a grave' follows the Hebrew.,proposed
+1543,main,word,,speak,,,"Distinct from say (אָמַר): speak for dabar, say for amar.",proposed
+6330,main,word,,people,,,Plain literal rendering.,proposed
+8791,main,word,,year,,,Plain literal rendering.,proposed
+908,main,word,,lord,,Lower case for a human master (style rule 5).,"Proposed pattern in style rules, section 5: Lord for Adonai, lord for a human master.",proposed
+2305,main,word,,ear,,,Plain literal rendering; 'in the ears of' stays literal.,proposed
+2681,main,word,,possession,,,"Plain literal rendering; KJV, ASV and YLT agree in Gen 23:9.",proposed
+4055,main,word,,hundred,,,Number word.,proposed
+6397,main,word,,answer,,,Plain literal rendering.,proposed
+9118,main,word,,midst,,,Plain literal rendering; 'in your midst' (YLT) is the literal form.,proposed
+9232,main,word,,with,,,Preposition 'with' (H854); separate from the object marker (H853).,proposed
+9450,main,word,,come,go in; enter,Use go in or enter for gates and houses.,Basic sense come; the allowed list covers entering.,proposed
+2316,main,word,,life,,,Plural form in Hebrew; one English word.,proposed
+3878,main,word,,not,no,,Plain negative.,proposed
+5417,main,word,,if,,,Plain literal rendering.,proposed
+6206,main,word,,eye,,,Plain literal rendering.,proposed
+6245,main,word,,city,,,Plain literal rendering.,proposed
+6332,main,word,,with,,,Preposition 'with' (H5973).,proposed
+7547,main,word,,four,,,Number word.,proposed
+8441,main,word,,bow down,,,Plain literal rendering for the reflexive stem.,proposed
+8837,main,word,,gate,,,Plain literal rendering.,proposed
+8919,main,word,,shekel,,Not converted to a modern weight (style rule 7).,Unit kept as in the source.,proposed
+6307,main,word,,I,,,Plain pronoun.,proposed
+824,main,word,,weep,,,Plain literal rendering.,proposed
+1193,main,word,,border,,,Plain literal rendering.,proposed
+1459,main,word,,sojourner,,,Plain literal rendering; stranger is avoided because it hides the legal sense of the word.,proposed
+3092,main,word,,after,,,Plain literal rendering.,proposed
+4034,main,word,,take,,,Plain literal rendering.,proposed
+4094,main,word,,choicest,,,Rare word (13 uses); check the word sheet before approving.,proposed
+4916,main,word,,purchase,,,Rare word (15 uses); keeps the sense of buying. Check the word sheet before approving.,proposed
+5707,main,word,,around,round about,,Plain literal rendering.,proposed
+6455,main,word,,tree,,,Plain literal rendering.,proposed
+6634,main,word,,twenty,,,Number word.,proposed
