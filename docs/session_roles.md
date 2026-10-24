@@ -34,10 +34,20 @@ does not change the glossary. It records the departure in `draft_alignment`
 
 1. State the role and the scope (book and chapter range, or a range of lemmas).
 2. Generate the briefing from the database: current section, open flags, the
-   style rules, and the last session summary. (The script `engine/handoff.py`
-   will be written after the importers.)
+   style rules, and the last session summary.
 3. Insert a row in `sessions` with the role and scope.
 4. Confirm a recent backup of the project database exists.
+
+All four steps are done by one command, which prints the briefing and the
+session number (keep the number, it is needed to end the session):
+
+    python3 engine/handoff.py start --project projects/english_literal/project.db \
+        --role lexical --scope "Lemmas of Genesis 1 to 3" \
+        --source sources/source_texts.db --book Genesis --chapters 1 3
+
+The briefing also warns about sessions that were never closed and about a missing
+or stale backup, and says how many lemmas in the section still lack an approved
+glossary entry. `handoff.py status` lists open sessions and backups.
 
 ## Ending a session
 
@@ -50,6 +60,14 @@ does not change the glossary. It records the departure in `draft_alignment`
 4. Back up the database to a dated copy. Keep the most recent copies and never
    overwrite an older one.
 5. Commit any code changes to Git. Databases are never committed.
+
+Steps 1 to 4 are done by `handoff.py end --project ... --session N --summary "..."`.
+The checks are: every departure from the glossary has a note; every word that
+differs from its glossary entry is marked as a departure; every word is tied to a
+glossary entry; no flag raised in the session is still open. A translation or
+quality session that fails a check is not closed unless `--force` is given, and
+then the unresolved issues are written into the summary so the next session sees
+them. Times in the `sessions` table are UTC; backup file names use local time.
 
 ## Carried over from the Gateway project
 
