@@ -1,0 +1,21 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+4612,main,name,3,Mamre,,,"Familiar form, tier 3. Replaces the entry that was filed under the wrong lemma (4471).",proposed
+7182,main,name,3,Zohar,,,ASV spells Zohar and YLT spells Zoar; Zohar follows the Hebrew letters and the ASV.,proposed
+7693,main,name,3,Kiriath-arba,,Same rendering as lemma 7694; the two rows are one name tagged twice.,"KJV Kirjath-arba, ASV Kiriath-arba. Modernised spelling per style rule 6. The text says it is Hebron (Gen 23:2).",proposed
+7694,main,name,3,Kiriath-arba,,Same rendering as lemma 7693.,Same name as lemma 7693.,proposed
+5679,main,word,,give,put; set; place; make,"Put, set or place when the object is placed somewhere. Check the word sheet before relying on this list.","Basic sense is give and most uses are giving. Allowed list is from the lexicon, not yet checked against the uses.",proposed
+7485,main,word,,rise,arise; stand; stand up,Verb of getting up or standing.,Plain literal rendering.,proposed
+7485,established,word,,be established,stand,Use when land or a word is confirmed or made to stand (Gen 23:17 and 23:20). Check the sheet.,KJV 'were made sure'; YLT 'established are'. Needs its own sense so the legal meaning is not lost.,proposed
+4622,main,word,,from,out of; than; of,Use 'than' only after a comparison. Use 'of' for a part taken from a whole.,Basic sense is separation. The prefix form is already entered as 'from'.,proposed
+3443,main,word,,there is,is; there are; are,Both singular and plural are covered by this one form.,Plain literal rendering of the existential word.,proposed
+3828,main,word,,man,husband; each one,Husband only where the context is marriage. 'Each one' in distributive phrases.,Plain literal rendering.,proposed
+3940,main,word,,if only,if,,Wish particle (Gen 23:13). The ordinary 'if' is a different word.,proposed
+3971,main,word,,only,surely; but,Check the sheet; this is a restricting word that sometimes reads 'surely'.,KJV 'but' in Gen 23:13. Needs a sheet before approval.,proposed
+4196,main,word,,what,why; how,Question word.,Plain literal rendering.,proposed
+4524,main,word,,full,filled,,Plain literal rendering; 'full silver' means the full price.,proposed
+5772,main,word,,go about,trade,The participle used as a noun is 'merchant' (Gen 23:16).,"BDB: go about, trade. Only 21 uses.",proposed
+7632,main,word,,end,edge; extremity,,Plain literal rendering; 'the end of his field' (Gen 23:9).,proposed
+8263,main,word,,seven,,,Number word.,proposed
+8679,main,word,,there,,,Plain literal rendering.,proposed
+8918,main,word,,weigh,,,Plain literal rendering; Gen 23:16 weighs out silver.,proposed
+9142,main,word,,settler,resident,"Not used for גֵּר, which is 'sojourner'.","Gen 23:4 puts גֵּר and תוֹשָׁב together, so two different English words are needed.",proposed

@@ -20,3 +20,10 @@ sources/raw/
 # Working reference material, not published
 Materials/
 *Zone.Identifier
+
+# Working copies and backups
+engine/held_part_*
+engine/held_sheets.txt
+projects/*/project.db.before_*
+projects/*/backups/
+docs/ch23_pack.zip

@@ -1,0 +1,3 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+9521,main,word,,the,(none),"Translate where the source has it; never add it. Before a proper name the article is not translated: rendered_as is then (none) (style rule 6, decided 2026-10-24).","Style rule on the definite article, plus the decided rule for names. Found in Gen 23:9 (ha-Machpelah) when every named place showed as a departure.",approved
+9519,main,word,,in,with; by; among; for,"Use for for the price paid (b with silver or money, Gen 23:9 'for full silver'). Use with, by or among as the context needs.",Basic locative sense is the most common and most literal. Gen 23:9 showed that the price use needs for; added as an allowed variant.,approved

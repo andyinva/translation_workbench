@@ -10,6 +10,7 @@ The lexical session's tool for the project glossary. Three commands:
     show   print the glossary rows for one lemma
     load   add many entries from a CSV file (a batch of proposals)
     approve  turn proposed entries into approved ones
+    remove   delete an entry that was recorded against the wrong lemma
 
 Examples:
     python3 glossary.py todo --project P.db --source S.db --book Genesis --chapters 1 3
@@ -242,6 +243,37 @@ class GlossaryTool:
         return "\n".join(lines) + "\n"
 
     # ------------------------------------------------------------------
+    # remove: undo an entry entered by mistake
+    # ------------------------------------------------------------------
+    def remove_entry(self, session_id, lemma_id, sense, reason):
+        """Delete one glossary entry. The removal and its reason are kept in the decision log."""
+        session = self.project.execute("SELECT * FROM sessions WHERE session_id = ?", (session_id,)).fetchone()
+        if session is None or session["role"] != "lexical" or session["ended_at"]:
+            sys.exit(f"Session {session_id} must be an open lexical session.")
+        if not (reason or "").strip():
+            sys.exit("A reason is required (--reason), so the removal can be understood later.")
+        g = self.project.execute("SELECT * FROM glossary WHERE lemma_id = ? AND sense_label = ?",
+                                 (lemma_id, sense)).fetchone()
+        if g is None:
+            sys.exit(f"No entry for lemma {lemma_id} with sense '{sense}'.")
+        for table, what in (("draft_alignment", "a draft alignment"), ("flags", "a flag")):
+            if self.project.execute(f"SELECT 1 FROM {table} WHERE glossary_id = ? LIMIT 1",
+                                    (g["glossary_id"],)).fetchone():
+                sys.exit(f"This entry is used by {what}. Change it with 'set' instead of removing it.")
+        lemma = self.source.execute("SELECT * FROM lemmas WHERE lemma_id = ?", (lemma_id,)).fetchone()
+        name = (lemma["headword"] or lemma["lemma"]) if lemma else str(lemma_id)
+        # The decision row is written first, without a link to the entry that is about to disappear.
+        self.project.execute(
+            "INSERT INTO decisions (topic, summary, reason, session_id) VALUES (?,?,?,?)",
+            (f"Glossary removal: {name} ({sense})",
+             f"Removed entry '{g['rendering']}' [{g['status']}] for lemma {lemma_id}", reason.strip(), session_id))
+        # Decisions that pointed at the entry keep their text but lose the link.
+        self.project.execute("UPDATE decisions SET glossary_id = NULL WHERE glossary_id = ?", (g["glossary_id"],))
+        self.project.execute("DELETE FROM glossary WHERE glossary_id = ?", (g["glossary_id"],))
+        self.project.commit()
+        return f"Removed {name} ({sense}): '{g['rendering']}'. Removal logged.\n"
+
+    # ------------------------------------------------------------------
     # show
     # ------------------------------------------------------------------
     def show(self, lemma_id):
@@ -309,6 +341,13 @@ def main():
     load.add_argument("--session", required=True, type=int, help="an open lexical session")
     load.add_argument("csv_file", help="columns: " + ", ".join(GlossaryTool.CSV_COLUMNS))
 
+    remove = sub.add_parser("remove", help="delete an entry recorded against the wrong lemma")
+    common(remove)
+    remove.add_argument("--session", required=True, type=int, help="an open lexical session")
+    remove.add_argument("--lemma-id", required=True, type=int)
+    remove.add_argument("--sense", default="main")
+    remove.add_argument("--reason", required=True)
+
     approve = sub.add_parser("approve", help="turn proposed entries into approved ones")
     common(approve)
     approve.add_argument("--session", required=True, type=int, help="an open lexical session")
@@ -328,6 +367,8 @@ def main():
         text, ok = tool.load_csv(args.session, args.csv_file)
         print(text)
         sys.exit(0 if ok else 1)
+    elif args.command == "remove":
+        print(tool.remove_entry(args.session, args.lemma_id, args.sense, args.reason))
     elif args.command == "approve":
         print(tool.approve(args.session, args.lemma_ids))
     else:

@@ -1,0 +1,4 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+9524,main,word,,to,for; of; (none),"Use for when to would not be English, e.g. the person benefited. Use (none) when the preposition is absorbed into a set phrase: lipney is before (the face entry), and the infinitive of say is saying.","Found in Genesis 23: the same absorbed uses (lipney, le'mor) recurred, so (none) is an allowed variant instead of a departure each time.",approved
+6279,main,word,,on,upon; over; above; against; (none),"Choose by context; over for Gen 1:2, 1:20. Use (none) in the set phrase 'al peney, which the face entry renders as before.","Found in Genesis 23:19: 'al peney is rendered before by the face entry, leaving this word without its own English.",approved
+3707,main,word,,so,thus; this,In the phrases על כן and לכן use therefore. And it was so (ויהי כן) keeps so. In אחרי כן use after this.,Found in Genesis 23:19 (and after this). The phrase is a set expression.,approved

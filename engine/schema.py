@@ -247,6 +247,11 @@ class SourceSchema(Schema):
 class ProjectSchema(Schema):
     """Tables for one translation project (one target language)."""
 
+    # Columns added after the first release (see Schema.ADD_COLUMNS).
+    ADD_COLUMNS = [
+        ("drafts", "reason", "TEXT"),       # why a version was chosen or rejected
+    ]
+
     STATEMENTS = [
         # Simple key and value settings: language, style profile, paths, version.
         """

@@ -127,6 +127,14 @@ Each rule is marked:
 - **[decided]** Second person pronouns (אַתָּה and the others) are rendered "you"
   everywhere. Number and gender stay in the source tagging, and a verse note
   mentions them only where they are critical to the meaning.
+- **[decided]** English articles (a, the) that the sentence needs are not put in
+  square brackets. Square brackets mark added words that carry content, such as
+  [is], [am] and [it]. A construct chain takes the article of its last noun:
+  "the cave of Machpelah", "the life of Sarah".
+- **[decided]** The formula לֵאמֹר is rendered "saying". The preposition inside it
+  is recorded as (none) in the alignment.
+- **[decided]** The Hebrew perfect used for a gift or act made as it is spoken
+  ("I have given you the field") keeps the plain perfect, with a verse note.
 - **[proposed]** The definite article is translated where the source has it and is
   not added where the source lacks it, unless English cannot do without it.
 - **[proposed]** Numbers, weights and measures keep their source units (cubit,
