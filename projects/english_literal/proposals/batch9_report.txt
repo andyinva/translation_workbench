@@ -1,0 +1,84 @@
+PROPOSED                   Sabbath H7676 lemma 8290 [optional]
+PROPOSED                   shofar H7782 lemma 8408 [core]
+PROPOSED                   teruah H8643 lemma 9346 [optional]
+PROPOSED                   yovel H3104 lemma 3098 [core]
+PROPOSED                   shabbaton H7677 lemma 8291 [optional]
+PROPOSED                   hevel H1892 lemma 1744 [core]
+PICK THE LEMMA BY HAND      manna H4478: 4619 מָן, 4620 מָן
+PROPOSED                   pur H6332 lemma 6742 [core]
+PICK THE LEMMA BY HAND      goel H1350: 1176 גָּאַל, 1177 גְּאוּלַי
+PROPOSED                   Sheol H7585 lemma 8188 [core]
+PROPOSED                   mashiach H4899 lemma 5100 [optional]
+PROPOSED                   tsaraat H6883 lemma 7387 [core]
+PROPOSED                   satan H7854 lemma 8486 [core]
+CHECK FIRST                tannin H8577: the source mixes sea monster and jackal under this number; check the lemmas first
+PROPOSED                   livyatan H3882 lemma 3961 [optional]
+PROPOSED                   mishkan H4908 lemma 5109 [optional]
+PROPOSED                   cherub H3742 lemma 3811 [optional]
+PROPOSED                   ephod H646 lemma 6884 [core]
+PROPOSED                   tevah H8392 lemma 9075 [core]
+PROPOSED                   kapporet H3727 lemma 3793 [core]
+PROPOSED                   teraphim H8655 lemma 9357 [core]
+PROPOSED                   Urim H224 lemma 2122 [core]
+PICK THE LEMMA BY HAND      seraph H8314: 8986 שָׂרָף, 8987 שָׂרָף
+PROPOSED                   Thummim H8550 lemma 9243 [core]
+PROPOSED                   tsitsit H6734 lemma 7206 [optional]
+PROPOSED                   totafot H2903 lemma 2895 [optional]
+PROPOSED                   shittah H7848 lemma 8480 [optional]
+PROPOSED                   tachash H8476 lemma 9166 [core]
+PROPOSED                   ezov H231 lemma 2201 [optional]
+PROPOSED                   shittim H7851 lemma 8483 [optional]
+PROPOSED                   bedolach H916 lemma 9432 [core]
+PROPOSED                   gopher H1613 lemma 1456 [core]
+PROPOSED                   shoham H7718 lemma 8336 [optional]
+PROPOSED                   tarshish H8658 lemma 9360 [optional]
+PROPOSED                   pitdah H6357 lemma 6771 [optional]
+PROPOSED                   nopek H5306 lemma 5562 [optional]
+PROPOSED                   odem H124 lemma 1051 [optional]
+PICK THE LEMMA BY HAND      bareqet H1304: 1122 בָּרֶ֫קֶת, 1123 בָּֽרְקַת
+PROPOSED                   yahalom H3095 lemma 3086 [optional]
+PROPOSED                   yashpeh H3471 lemma 3496 [optional]
+PROPOSED                   leshem H3958 lemma 4046 [optional]
+PROPOSED                   shevo H7618 lemma 8225 [optional]
+PROPOSED                   achlamah H306 lemma 3053 [optional]
+PROPOSED                   Selah H5542 lemma 5826 [core]
+PROPOSED                   tohu H8414 lemma 9099 [optional]
+PROPOSED                   maskil H4905 lemma 5107 [core]
+PROPOSED                   miktam H4387 lemma 4518 [core]
+PROPOSED                   higgayon H1902 lemma 1756 [optional]
+PROPOSED                   Azazel H5799 lemma 6122 [core]
+PROPOSED                   nephilim H5303 lemma 5559 [core]
+PROPOSED                   bohu H922 lemma 9438 [optional]
+PROPOSED                   shiggaion H7692 lemma 8307 [core]
+PROPOSED                   Shaddai H7706 lemma 8324 [core]
+PROPOSED                   asherah H842 lemma 9105 [core]
+PROPOSED                   Amen H543 lemma 5696 [optional]
+PROPOSED                   nazir H5139 lemma 5369 [optional]
+ALREADY HAS AN ENTRY       shekel H8255 lemma 8919: 'shekel' [approved], left unchanged
+PROPOSED                   kikkar H3603 lemma 3652 [core]
+PROPOSED                   ephah H374 lemma 3808 [core]
+PROPOSED                   issaron H6241 lemma 6633 [core]
+PICK THE LEMMA BY HAND      homer H2563: 2487 חֹ֫מֶר, 2488 חֹ֫מֶר, 2489 חֹ֫מֶר
+PROPOSED                   hin H1969 lemma 1825 [core]
+PICK THE LEMMA BY HAND      omer H6016: 6379 עֹ֫מֶר, 6380 עֹ֫מֶר
+PROPOSED                   bath H1324 lemma 1144 [core]
+PROPOSED                   seah H5429 lemma 5695 [core]
+PICK THE LEMMA BY HAND      kor H3734: 253 כּוֹר, 3802 כֹּר
+PROPOSED                   gerah H1626 lemma 1470 [core]
+PROPOSED                   maneh H4488 lemma 4627 [core]
+PROPOSED                   log H3849 lemma 3924 [core]
+PROPOSED                   beka H1235 lemma 1046 [core]
+PROPOSED                   lethek H3963 lemma 4051 [core]
+PICK THE LEMMA BY HAND      olah H5930: 6287 עֹלָה, 6288 עֹלָה
+PROPOSED                   minchah H4503 lemma 4646 [optional]
+PROPOSED                   shelamim H8002 lemma 8644 [optional]
+PICK THE LEMMA BY HAND      qorban H7133: 7670 קׇרְבָּן, 7671 קֻרְבָּן
+PROPOSED                   asham H817 lemma 8824 [optional]
+SKIPPED (held group)       ruach H7307
+SKIPPED (held group)       chatta'ah H2403
+SKIPPED (held group)       hesed H2617
+SKIPPED (held group)       shalom H7965
+SKIPPED (held group)       torah H8451
+SKIPPED (held group)       kabod H3519
+
+65 proposals written to ../projects/english_literal/proposals/batch9_translit.csv

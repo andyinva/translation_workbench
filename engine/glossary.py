@@ -38,7 +38,8 @@ try:
 except ImportError:
     from engine.books import book_name, book_number
 
-CATEGORIES = ["word", "name", "divine_name", "term"]
+# translit = a word kept in plain transliteration (for example yovel); see style_rules.md section 4a
+CATEGORIES = ["word", "name", "divine_name", "term", "translit"]
 STATUSES = ["proposed", "approved", "revised"]
 
 

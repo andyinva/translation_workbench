@@ -1,0 +1,548 @@
+TRANSLITERATION CANDIDATES: WORKSHEET
+translation_workbench, English literal translation
+Printed from docs/translit_candidates.md (2026-10-25)
+==============================================================================
+
+HOW TO USE
+  Mark each word: YES (transliterate), NO (translate into English), or
+  LATER (decide after the trial). Write a note if you wish.
+
+THE FIVE TESTS (a word qualifies with two)
+  1 English has no faithful word, or the usual word misleads
+  2 Closed set (feast, offering, object, garment, measure)
+  3 The Hebrew links passages that English separates
+  4 Identity or meaning is uncertain
+  5 The text plays on or explains the word
+
+STRENGTH: strong, maybe, rule (a measure, already decided), familiar
+  (English already has the form), hold (frequent word, decide separately).
+  Uses = Old Testament occurrences.
+
+DECIDED: yovel (H3104) in all 27 uses.
+
+SIZE OF THE TRIAL
+  Set A (strong only): 30 words, 790 uses, 1 word in 380.
+  Set B (A + familiar + measures): 55 words, 1 word in 220.
+  Set C (B + maybe): 86 words, 1 word in 130.
+  Suggested trial chapters: Lev 25, Josh 6, Ruth 4, Eccl 1, Exod 28.
+
+==============================================================================
+
+
+FEASTS AND CALENDAR
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   Sabbath  (H7676, שַׁבָּת)
+      Uses 111   Tests 2   Strength: familiar
+      KJV: ([phrase] every) sabbath.
+      Note: Familiar English form already; listed so the reader's list is
+      complete.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shofar  (H7782, שֹׁפָר)
+      Uses 72   Tests 2   Strength: strong
+      KJV: cornet, trumpet.
+      Note: KJV: trumpet. A different Hebrew word (hatsotsrah) is also
+      'trumpet' in English; transliterating shofar separates them.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   teruah  (H8643, תְּרוּעָה)
+      Uses 36   Tests 3   Strength: maybe
+      KJV: alarm, blow(-ing) (of, the) (trumpets), joy, jubile, loud no
+      Note: KJV: alarm, shout, joy, jubilee, blow. Often reads well as 'blast'
+      or 'shout'; low priority.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   yovel  (H3104, יוֹבֵל)
+      Uses 27   Tests 2,3,5   Strength: strong
+      KJV: jubile, ram's horn, trumpet.
+      Note: DECIDED: 'yovel' in all 27 uses. Horn blast and the year it opens
+      (Ex 19:13, Lev 25, 27, Num 36:4, Josh 6).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shabbaton  (H7677, שַׁבָּתוֹן)
+      Uses 11   Tests 2   Strength: maybe
+      KJV: rest, sabbath.
+      Note: KJV: rest, sabbath. A 'sabbath rest' day, Lev 16 and 23.
+      My note: ________________________________________________________
+
+
+THE TEXT PLAYS ON OR EXPLAINS THE WORD
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   hevel  (H1892, הֶ֫בֶל)
+      Uses 73   Tests 3,5   Strength: strong
+      KJV: [idiom] altogether, vain, vanity.
+      Note: KJV: vanity, vain. Ecclesiastes has 38 uses, five in verse 1:2. It
+      is also the name of Abel in Gen 4 (Hevel).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   manna  (H4478, מָן)
+      Uses 14   Tests 5   Strength: strong
+      KJV: manna.
+      Note: Ex 16:15 explains the name ('What is it?'). KJV already has
+      'manna'.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   pur  (H6332, פּוּר)
+      Uses 8   Tests 5   Strength: strong
+      KJV: Pur, Purim.
+      Note: Esther 9:24-26 explains the name Purim from the word. Test 5.
+      My note: ________________________________________________________
+
+
+THE HEBREW LINKS PASSAGES THAT ENGLISH SEPARATES
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   goel  (H1350, גָּאַל)
+      Uses 104   Tests 3   Strength: strong
+      KJV: [idiom] in any wise, [idiom] at all, avenger, deliver, (do,
+      Note: Noun (kinsman-redeemer, avenger) and verb (redeem) share one
+      number: 104 uses. Five in Ruth 4:4 alone. Decide noun only or both.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   Sheol  (H7585, שְׁאוֹל)
+      Uses 66   Tests 1,3   Strength: strong
+      KJV: grave, hell, pit.
+      Note: KJV: grave, hell, pit. Familiar form exists.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   mashiach  (H4899, מָשִׁיחַ)
+      Uses 39   Tests 1,3   Strength: maybe
+      KJV: anointed, Messiah.
+      Note: KJV: anointed, and Messiah only in Dan 9:25 to 26. Theologically
+      charged; test with care.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tsaraat  (H6883, צָרַ֫עַת)
+      Uses 35   Tests 1,4   Strength: strong
+      KJV: leprosy.
+      Note: KJV: leprosy. The skin disease of Lev 13 to 14 is not clearly
+      leprosy. 35 uses, 21 in Lev 13.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   satan  (H7854, שָׂטָן)
+      Uses 27   Tests 1,3   Strength: strong
+      KJV: adversary, Satan, withstand.
+      Note: Job 1 to 2 and Zech 3 use the article ('the satan'); 1 Chr 21:1
+      has no article. Test 3.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tannin  (H8577, תַּן)
+      Uses 26   Tests 3,4   Strength: strong
+      KJV: dragon, sea-monster, serpent, whale.
+      Note: CHECK FIRST: this Strong's number mixes two words in the source
+      (sea monster and jackal), 26 uses together.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   livyatan  (H3882, לִוְיָתָן)
+      Uses 6   Tests 4   Strength: maybe
+      KJV: leviathan, mourning.
+      My note: ________________________________________________________
+
+
+SACRED OBJECTS AND GARMENTS
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   mishkan  (H4908, מִשְׁכָּן)
+      Uses 139   Tests 2   Strength: hold
+      KJV: dwelleth, dwelling (place), habitation, tabernacle, tent.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   cherub  (H3742, כְּרוּב)
+      Uses 91   Tests 2   Strength: familiar
+      KJV: cherub, (plural) cherubims.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   ephod  (H646, אֵפוֹד)
+      Uses 49   Tests 2   Strength: strong
+      KJV: ephod.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tevah  (H8392, תֵּבָה)
+      Uses 28   Tests 3   Strength: strong
+      KJV: ark.
+      Note: Only two stories use it: Noah's ark (Gen 6 to 9) and the basket of
+      Moses (Ex 2:3, 5). A different word (aron) is the ark of the covenant.
+      Test 3.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   kapporet  (H3727, כַּפֹּרֶת)
+      Uses 27   Tests 1,2   Strength: strong
+      KJV: mercy seat.
+      Note: KJV: mercy seat. The cover of the ark (Ex 25:17-22, Lev 16).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   teraphim  (H8655, תְּרָפִים)
+      Uses 15   Tests 2,4   Strength: strong
+      KJV: idols(-atry), images, teraphim.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   Urim  (H224, אוּרִים)
+      Uses 7   Tests 2,4   Strength: strong
+      KJV: Urim.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   seraph  (H8314, שָׂרָף)
+      Uses 7   Tests 2   Strength: familiar
+      KJV: fiery (serpent), seraph.
+      Note: Includes the 'fiery serpents' of Num 21.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   Thummim  (H8550, תֻּמִּים)
+      Uses 5   Tests 2,4   Strength: strong
+      KJV: Thummim.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tsitsit  (H6734, צִיצִת)
+      Uses 4   Tests 2   Strength: maybe
+      KJV: fringe, lock.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   totafot  (H2903, טוֹטָפוֹת)
+      Uses 3   Tests 2,4   Strength: maybe
+      KJV: frontlet.
+      My note: ________________________________________________________
+
+
+PLANTS, ANIMALS AND OBJECTS OF UNCERTAIN IDENTITY
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   shittah  (H7848, שִׁטָּה)
+      Uses 28   Tests 4   Strength: maybe
+      KJV: shittah, shittim. See also H1029 (בֵּית הַשִּׁטָּה).
+      Note: KJV: shittah, shittim wood. Identity: acacia is a guess.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tachash  (H8476, תַּ֫חַשׁ)
+      Uses 14   Tests 4   Strength: strong
+      KJV: badger.
+      Note: KJV: badger skins. Identity unknown (Ex 25 to 39, Num 4, Ezek 16).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   ezov  (H231, אֵזוֹב)
+      Uses 10   Tests 4   Strength: maybe
+      KJV: hyssop.
+      Note: KJV: hyssop. The plant of Ex 12:22 and Lev 14 is not certainly our
+      hyssop.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shittim  (H7851, שִׁטִּים)
+      Uses 5   Tests 4   Strength: maybe
+      KJV: Shittim.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   bedolach  (H916, בְּדֹ֫לַח)
+      Uses 2   Tests 4   Strength: strong
+      KJV: bdellium.
+      Note: KJV: bdellium (Gen 2:12, Num 11:7). Identity uncertain.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   gopher  (H1613, גֹּ֫פֶר)
+      Uses 1   Tests 4   Strength: strong
+      KJV: gopher.
+      Note: One use (Gen 6:14). KJV already has 'gopher wood'.
+      My note: ________________________________________________________
+
+
+STONES (BREASTPLATE OF EX 28 AND 39, EZEK 28:13)
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   shoham  (H7718, שֹׁ֫הַם)
+      Uses 11   Tests 4   Strength: maybe
+      KJV: onyx.
+      Note: KJV: onyx. A gem of uncertain identity (Gen 2:12, Ex 25 to 39).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tarshish  (H8658, תַּרְשִׁישׁ)
+      Uses 7   Tests 4   Strength: maybe
+      KJV: beryl.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   pitdah  (H6357, פִּטְדָה)
+      Uses 4   Tests 4   Strength: maybe
+      KJV: topaz.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   nopek  (H5306, נֹ֫פֶךְ)
+      Uses 4   Tests 4   Strength: maybe
+      KJV: emerald.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   odem  (H124, אֹ֫דֶם)
+      Uses 3   Tests 4   Strength: maybe
+      KJV: sardius.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   bareqet  (H1304, בָּרֶ֫קֶת)
+      Uses 3   Tests 4   Strength: maybe
+      KJV: carbuncle.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   yahalom  (H3095, יַהֲלֹם)
+      Uses 3   Tests 4   Strength: maybe
+      KJV: diamond.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   yashpeh  (H3471, יָֽשְׁפֶה)
+      Uses 3   Tests 4   Strength: maybe
+      KJV: jasper.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   leshem  (H3958, לֶ֫שֶׁם)
+      Uses 2   Tests 4   Strength: maybe
+      KJV: ligure.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shevo  (H7618, שְׁבוֹ)
+      Uses 2   Tests 4   Strength: maybe
+      KJV: agate.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   achlamah  (H306, אַחְלָ֑מָה)
+      Uses 2   Tests 4   Strength: maybe
+      KJV: amethyst.
+      My note: ________________________________________________________
+
+
+WORDS WHOSE MEANING IS LOST OR UNCERTAIN
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   Selah  (H5542, סֶ֫לָה)
+      Uses 74   Tests 4   Strength: strong
+      KJV: Selah.
+      Note: KJV already has 'Selah'. Meaning lost.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   tohu  (H8414, תֹּ֫הוּ)
+      Uses 20   Tests 3,4   Strength: maybe
+      KJV: confusion, empty place, without form, nothing, (thing of) no
+      Note: Gen 1:2 'without form' and 'confusion', 'nothing', 'empty place'
+      elsewhere. 20 uses.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   maskil  (H4905, מַשְׂכִּיל)
+      Uses 13   Tests 4   Strength: strong
+      KJV: Maschil.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   miktam  (H4387, מִכְתָּם)
+      Uses 6   Tests 4   Strength: strong
+      KJV: Michtam.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   higgayon  (H1902, הִגָּיוֹן)
+      Uses 4   Tests 4   Strength: maybe
+      KJV: device, Higgaion, meditation, solemn sound.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   Azazel  (H5799, עֲזָאזֵל)
+      Uses 4   Tests 4   Strength: strong
+      KJV: scapegoat.
+      Note: KJV: scapegoat. Lev 16, four uses. Meaning disputed.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   nephilim  (H5303, נְפִלִים)
+      Uses 3   Tests 4   Strength: strong
+      KJV: giant.
+      Note: KJV: giants (Gen 6:4, Num 13:33). Three uses.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   bohu  (H922, בֹּהוּ)
+      Uses 3   Tests 3,4   Strength: maybe
+      KJV: emptiness, void.
+      Note: Gen 1:2, Isa 34:11, Jer 4:23. Always with tohu. 3 uses.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shiggaion  (H7692, שִׁגָּיוֹן)
+      Uses 2   Tests 4   Strength: strong
+      KJV: Shiggaion, Shigionoth.
+      My note: ________________________________________________________
+
+
+EPITHET OF GOD
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   Shaddai  (H7706, שַׁדַּי)
+      Uses 48   Tests 1,4   Strength: strong
+      KJV: Almighty.
+      Note: KJV: Almighty. Meaning uncertain. Used with El (God) in Genesis.
+      My note: ________________________________________________________
+
+
+FAMILIAR ENGLISH FORMS
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   asherah  (H842, אֲשֵׁרָה)
+      Uses 40   Tests 1,4   Strength: strong
+      KJV: grove. Compare H6253 (עַשְׁתֹּרֶת).
+      Note: KJV: grove. The wooden pole or goddess.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   Amen  (H543, אָמֵן)
+      Uses 30   Tests 1   Strength: familiar
+      KJV: Amen, so be it, truth.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   nazir  (H5139, נָזִיר)
+      Uses 16   Tests 2   Strength: familiar
+      KJV: Nazarite (by a false alliteration with Nazareth), separate(-
+      My note: ________________________________________________________
+
+
+WEIGHTS AND MEASURES (RULE ALREADY DECIDED: SOURCE UNITS)
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   shekel  (H8255, שֶׁ֫קֶל)
+      Uses 88   Tests 2   Strength: rule
+      KJV: shekel.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   kikkar  (H3603, כִּכָּר)
+      Uses 68   Tests 2   Strength: rule
+      KJV: loaf, morsel, piece, plain, talent.
+      Note: Not only a weight: 'talent' (Ex 25 to 38) and 'plain' or 'circle'
+      of the Jordan (Gen 13:10-12). 68 uses. Needs two senses.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   ephah  (H374, אֵיפָה)
+      Uses 40   Tests 2   Strength: rule
+      KJV: ephah, (divers) measure(-s).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   issaron  (H6241, עִשָּׂרוֹן)
+      Uses 33   Tests 2   Strength: rule
+      KJV: tenth deal.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   homer  (H2563, חֹ֫מֶר)
+      Uses 31   Tests 2   Strength: rule
+      KJV: clay, heap, homer, mire, motion.
+      Note: This lemma also means clay or mortar (31 uses in all, 16 for the
+      measure). Only the measure sense qualifies.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   hin  (H1969, הִין)
+      Uses 22   Tests 2   Strength: rule
+      KJV: hin.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   omer  (H6016, עֹ֫מֶר)
+      Uses 14   Tests 2   Strength: rule
+      KJV: omer, sheaf.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   bath  (H1324, בַּת)
+      Uses 13   Tests 2   Strength: rule
+      KJV: bath.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   seah  (H5429, סְאָה)
+      Uses 9   Tests 2   Strength: rule
+      KJV: measure.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   kor  (H3734, כּוֹר)
+      Uses 9   Tests 2   Strength: rule
+      KJV: cor, measure. Aramaic the same.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   gerah  (H1626, גֵּרָה)
+      Uses 5   Tests 2   Strength: rule
+      KJV: gerah.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   maneh  (H4488, מָנֶה)
+      Uses 5   Tests 2   Strength: rule
+      KJV: maneh, pound.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   log  (H3849, לֹג)
+      Uses 5   Tests 2   Strength: rule
+      KJV: log (of oil).
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   beka  (H1235, בֶּ֫קַע)
+      Uses 2   Tests 2   Strength: rule
+      KJV: bekah, half a shekel.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   lethek  (H3963, לֶ֫תֶךְ)
+      Uses 1   Tests 2   Strength: rule
+      KJV: half homer. m
+      My note: ________________________________________________________
+
+
+OFFERINGS (A CLUSTER RISK)
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   olah  (H5930, עֹלָה)
+      Uses 288   Tests 1,2   Strength: maybe
+      KJV: ascent, burnt offering (sacrifice), go up to. See also H5766
+      Note: KJV: burnt offering. 288 uses; Lev 1, Num 28 to 29 are very dense.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   minchah  (H4503, מִנְחָה)
+      Uses 211   Tests 1,2   Strength: maybe
+      KJV: gift, oblation, (meat) offering, present, sacrifice.
+      Note: KJV: meat offering, gift, present. 211 uses.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shelamim  (H8002, שֶׁ֫לֶם)
+      Uses 87   Tests 1,2   Strength: maybe
+      KJV: peace offering.
+      Note: KJV: peace offering. 87 uses.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   qorban  (H7133, קׇרְבָּן)
+      Uses 82   Tests 1,2   Strength: maybe
+      KJV: oblation, that is offered, offering.
+      Note: KJV: offering, oblation. 82 uses; Lev, Num 7.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   asham  (H817, אָשָׁם)
+      Uses 46   Tests 1,2   Strength: maybe
+      KJV: guiltiness, (offering for) sin, trespass (offering).
+      Note: KJV: trespass offering, guilt. 46 uses.
+      My note: ________________________________________________________
+
+
+HELD: FREQUENT WORDS WITH SEVERAL SENSES, DECIDE SEPARATELY
+------------------------------------------------------------------------------
+[ ] YES  [ ] NO  [ ] LATER   ruach  (H7307, רוּחַ)
+      Uses 378   Tests -   Strength: hold
+      KJV: air, anger, blast, breath, [idiom] cool, courage, mind, [idi
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   chatta'ah  (H2403, חַטָּאָה)
+      Uses 294   Tests -   Strength: hold
+      KJV: punishment (of sin), purifying(-fication for sin), sin(-ner,
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   hesed  (H2617, חֶ֫סֶד)
+      Uses 247   Tests -   Strength: hold
+      KJV: favour, good deed(-liness, -ness), kindly, (loving-) kindnes
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   shalom  (H7965, שָׁלוֹם)
+      Uses 237   Tests -   Strength: hold
+      KJV: [idiom] do, familiar, [idiom] fare, favour, [phrase] friend,
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   torah  (H8451, תּוֹרָה)
+      Uses 219   Tests -   Strength: hold
+      KJV: law.
+      My note: ________________________________________________________
+
+[ ] YES  [ ] NO  [ ] LATER   kabod  (H3519, כָּבוֹד)
+      Uses 200   Tests -   Strength: hold
+      KJV: glorious(-ly), glory, honour(-able).
+      My note: ________________________________________________________
+
+
+WORDS I WANT TO ADD
+------------------------------------------------------------------------------
+  __________________________________________________________________________
+  __________________________________________________________________________
+  __________________________________________________________________________
+  __________________________________________________________________________
+  __________________________________________________________________________
+  __________________________________________________________________________
+
+GENERAL QUESTIONS
+------------------------------------------------------------------------------
+  Which set to trial?   [ ] A   [ ] B   [ ] C
+  Offerings (olah, minchah, shelamim, qorban, asham): [ ] translate  [ ] transliterate  [ ] later
+  Goel: [ ] noun only  [ ] noun and verb
+  Frequent held words (torah, hesed, kabod, shalom, ruach, chatta'ah): [ ] hold for now
+
+Total words listed: 82

@@ -48,9 +48,11 @@ from pathlib import Path
 try:
     from books import book_name, book_number
     from schema import ProjectSchema
+    from phrases import find_matches
 except ImportError:
     from engine.books import book_name, book_number
     from engine.schema import ProjectSchema
+    from engine.phrases import find_matches
 
 # Glossary statuses that count as established. "proposed" does not.
 ESTABLISHED = ("approved", "revised")
@@ -172,6 +174,13 @@ class DraftTool:
             for w in missing:
                 out.append(f"  position {w['position']}, lemma {w['lemma_id']} {w['headword'] or w['lemma']} "
                            f"({w['strongs'] or 'no Strong number'})")
+        # Phrases (glossary_phrases) that occur in this verse must be written as one unit.
+        found = find_matches(self.project, words)
+        if found:
+            out += ["", "## Phrases in this verse (write each as one unit)"]
+            for m in found:
+                tag = "" if m["status"] in ESTABLISHED else f" [{m['status']}, not yet enforced]"
+                out.append(f"  {m['name']}: '{m['rendering']}' at positions {m['positions']}{tag}")
         out += self._drafts_lines(book, chapter, verse)
         out += self._notes_lines(book, chapter, verse)
 
@@ -275,6 +284,8 @@ class DraftTool:
             if w["lemma_id"] and w["position"] not in seen:
                 problems.append(f"position {w['position']} ({w['surface']}) is missing from the alignment")
 
+        problems += self._phrase_problems(words, rows, text)
+
         if problems:
             print("Nothing was saved. Fix these first:")
             for p in problems:
@@ -298,6 +309,34 @@ class DraftTool:
                  f"{len(aligned)} words aligned."]
         lines += ["  warning: " + w for w in warnings]
         return "\n".join(lines) + "\n"
+
+    def _phrase_problems(self, words, rows, text):
+        """Problems for the approved phrases found in this verse.
+
+        A phrase passes when its text appears in the draft as one unit, or when every member
+        word is marked as a departure with a note. The sense column must name the phrase's sense.
+        """
+        by_position = {}
+        for row in rows:
+            try:
+                by_position[int(row["position"])] = row
+            except (TypeError, ValueError):
+                pass
+        problems = []
+        for m in find_matches(self.project, words, only_established=True):
+            member_rows = [by_position.get(p) for p in m["positions"]]
+            if any(r is None for r in member_rows):
+                continue                      # a missing row is reported by the normal check
+            departing = all((r["departs"] or "").strip() in ("1", "y", "yes") for r in member_rows)
+            if departing:
+                continue
+            for r, (lemma_id, sense) in zip(member_rows, m["members"]):
+                if (r["sense"] or "").strip() != sense:
+                    problems.append(f"phrase {m['name']}: the sense for position {r['position']} must be '{sense}'")
+            if norm(m["rendering"]) not in norm(text):
+                problems.append(f"phrase {m['name']}: the text must contain '{m['rendering']}' as one unit "
+                                "(or mark every member word as a departure with a note)")
+        return problems
 
     @staticmethod
     def _read_alignment(path):

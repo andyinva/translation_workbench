@@ -1,0 +1,12 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+8290,main,translit,,Shabbat,,Level: core.,"Test 6: publicly known as Shabbat.",proposed
+9099,main,translit,,tohu,,Level: core. Phrase: tohu va vohu (Genesis 1:2; Jeremiah 4:23); Isaiah 34:11 has tohu and vohu in other words.,"Phrases stay together; test 6 (the phrase is widely known).",proposed
+9438,main,translit,,vohu,,Level: core. Phrase: tohu va vohu. Spelled with v (bet without dagesh).,"Spelling rule: v for the vet sound. Phrases stay together.",proposed
+9346,main,translit,,teruah,,Level: optional. In Numbers 29:1 'yom teruah' the pair renders Yom Teruah.,"Phrases stay together.",proposed
+3111,in festival names,translit,,yom,,Level: core. Only in Yom Kippur (Leviticus 23:27 and 28; 25:9) and Yom Teruah (Numbers 29:1). All other uses keep the approved entry 'day'.,"Phrases stay together; yom stays yom inside a festival name.",proposed
+3790,yom kippur,translit,,Kippur,,Level: core. Only in 'yom (ha)kippurim': Yom Kippur (Leviticus 23:27 and 28; 25:9). The other four uses (Exodus 29:36; 30:10; Numbers 5:8; 29:11) stay English 'atonement'.,"Test 6 (publicly known by its Hebrew sound). Phrases stay together.",proposed
+2171,in festival names,translit,,chag,,Level: core. Only before a festival name (Chag HaSukkot; Chag HaMatzot; Chag Shavuot). Other uses stay 'festival'. Proposed so that the festival phrases stay together.,"Phrases stay together. Needs the user's confirmation.",proposed
+6875,main,translit,,pasach,,Level: core. The verb 'pass over' (4 uses; Exodus 12:13 23 27). Pun with Pesach. The sense 'limp' (lemma 6876) stays English.,"Puns stay together.",proposed
+1745,main,name,1,Hevel,,Level: core. The name Abel (Genesis 4; 8 uses). Pun with hevel (vapour).,"Puns stay together; names tier 1 are transliterated.",proposed
+9140,main,translit,,torah,,Level: core. 219 uses; instruction or law. Whether 'Torah' is capitalised for the five books is a later question.,"Test 6 (publicly known by its Hebrew sound).",proposed
+8604,main,translit,,shalom,,Level: core. 237 uses; completeness or peace or welfare or greeting.,"Test 6 (publicly known by its Hebrew sound).",proposed

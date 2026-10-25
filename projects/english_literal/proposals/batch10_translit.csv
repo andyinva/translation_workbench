@@ -1,0 +1,19 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+4619,main,translit,,manna,,Level: core.,"Resolved lemma for batch 9: the food (13 uses). Test 5, KJV already has manna.",proposed
+4620,main,translit,,man,,Level: optional. Exodus 16:15 only: they said 'man hu' (What is it?). A gloss note explains.,"Test 5: the text explains the name. 1 use.",proposed
+1176,main,translit,,goel,,Level: core. Decide: noun only (kinsman-redeemer) or noun and verb. 103 uses; five in Ruth 4:4.,"Resolved lemma for batch 9 (1177 is a different word, 1 use). Test 3.",proposed
+8987,main,translit,,seraph,,Level: optional. The 'seraphim' sense (2 uses). The 'serpent' sense (lemma 8986) stays English.,"Resolved lemma for batch 9. Test 2.",proposed
+1122,main,translit,,bareqet,,Level: optional.,"Resolved lemma for batch 9. Test 4, 2 uses.",proposed
+1123,main,translit,,bareqet,,Level: optional. Variant spelling of the same stone.,"Variant spelling of lemma 1122. Test 4, 1 use.",proposed
+2489,measure,translit,,homer,,Level: core. The measure only (12 uses). The senses cement and heap stay English.,"Resolved lemma for batch 9. Measures keep source units.",proposed
+6380,measure,translit,,omer,,Level: core. The measure only (6 uses). The sense sheaf (lemma 6379) stays English.,"Resolved lemma for batch 9. Measures keep source units.",proposed
+3802,main,translit,,kor,,Level: core. Measure.,"Resolved lemma for batch 9. Measures keep source units. 8 uses.",proposed
+253,main,translit,,kor,,Level: core. Measure (Aramaic).,"Aramaic form of the same measure. 1 use.",proposed
+6287,main,translit,,olah,,Level: optional. The burnt offering (287 uses). Dense in Lev 1 and Num 28 to 29.,"Resolved lemma for batch 9. Tests 1 and 2.",proposed
+7670,main,translit,,qorban,,Level: optional.,"Resolved lemma for batch 9. Tests 1 and 2. 80 uses.",proposed
+7671,main,translit,,qorban,,Level: optional. Variant spelling.,"Variant spelling of lemma 7670. 2 uses.",proposed
+6877,main,translit,,Pesach,,Level: core. 49 uses. Note: Exodus 12 links the name to the verb pasach (pass over); a gloss note keeps that link.,"Test 6 (publicly known by its Hebrew sound).",proposed
+4849,main,translit,,matzah,,Level: core. 53 uses. Plural matzot by the usual grammar rule.,"Test 6 (publicly known by its Hebrew sound).",proposed
+8228,feast of weeks,translit,,Shavuot,,Level: core. Only in the feast name (Exodus 34:22; Deuteronomy 16:10 and 16; 2 Chronicles 8:13). Ordinary 'week' stays English.,"Test 6 (publicly known by its Hebrew sound).",proposed
+5794,main,translit,,sukkah,,Level: core. 31 uses; plural sukkot. The feast is Sukkot. Genesis 33:17 and other plain uses: decide whether they stay 'booth'.,"Test 6 (publicly known by its Hebrew sound).",proposed
+4644,main,translit,,menorah,,Level: core. 42 uses.,"Test 6 (publicly known by its Hebrew sound). KJV: candlestick.",proposed

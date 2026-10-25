@@ -1,0 +1,63 @@
+lemma_id,sense,category,tier,rendering,allowed,rule,reason,status
+3503,main,name,3,Israel,,Gen 32:28 explains the name; handle in a verse note there.,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+5068,main,name,3,Moses,,Ex 2:10 explains the name; handle in a verse note there.,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+3055,main,name,3,Judah,,"Gen 29:35 explains the name; handle in a verse note there. Used for the person, tribe and land.","Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+1584,main,name,3,David,,,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+4889,main,name,3,Egypt,,,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+3403,main,name,3,Jerusalem,,,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+1603,main,name,3,Aaron,,,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+8189,main,name,3,Saul,,,"Familiar English form (style rule 6, tier 3). The Hebrew article before the name is not translated.",proposed
+9408,main,name,3,Babylon,Babel,"Babel is the usual English form in Gen 10:10 and 11:9; Gen 11:9 explains the name, add a verse note there. Check the Genesis uses on the word sheet.","Familiar forms (style rule 6). One lemma, two familiar forms, so Babel is listed as the allowed variant.",proposed
+1186,main,divine_name,,Lord,,Before Yahweh the pair is Lord Yahweh (style rule 5). Capital L is the title of God.,Style rule 5 (proposed): adonay is Lord.,proposed
+3061,main,divine_name,,Yahweh,,The form of the divine name that follows adonay. In the pair render Lord Yahweh; do not write Lord God.,Same name as lemma 3060; keeping one rendering for the name (decision 3). The lexicon gloss God is not used.,proposed
+4564,main,word,,king,,,Lexicon gloss: king. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+4562,main,word,,be king,reign,Use reign only where the context is the length or period of a reign.,Lexicon gloss: be king. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1544,main,word,,word,,Lexicon gloss is speech. Use word for what is said.,Lexicon gloss: speech. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1544,thing,word,,thing,matter,"Use thing for an event, matter or affair, as in after these things.","Lemma has two common senses, word and thing; they give different English words (style rule 4).",proposed
+6601,main,word,,do,,,Lexicon gloss: do. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+6601,make,word,,make,,Use make where something is produced or fashioned.,"Lemma has two common senses, do and make; they give different English words (style rule 4).",proposed
+727,main,word,,house,,,Lexicon gloss: house. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8680,main,word,,name,,,Lexicon gloss: name. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+3020,main,word,,hand,,,Lexicon gloss: hand. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+720,main,word,,father,,,Lexicon gloss: father. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1143,main,word,,daughter,,,Lexicon gloss: daughter. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8797,main,word,,two,,,Lexicon gloss: two. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+5272,main,word,,thousand,,,Lexicon gloss: thousand. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+3583,main,word,,priest,,,Lexicon gloss: priest. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+7481,main,word,,voice,sound,"Use sound for a noise that is not a voice, such as thunder or a trumpet.",Lexicon gloss: sound. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+5222,main,word,,utterance,,"Used with the name of Yahweh, as in utterance of Yahweh.",Lexicon gloss: utterance. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8611,main,word,,send,,,Lexicon gloss: send. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+4450,main,word,,waters,,Plural in Hebrew; keep the plural in English.,Lexicon gloss: waters. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+3210,main,word,,go,walk,Use walk where the context is a manner of life or a path.,Lexicon gloss: go. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1960,main,word,,gold,,,Lexicon gloss: gold. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8756,main,word,,keep,guard; observe,Use observe for a law or command.,Lexicon gloss: keep. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+3203,main,word,,bear,beget,Use beget where the subject is a man.,Lexicon gloss: bear. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8472,main,word,,fire,,,Lexicon gloss: fire. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1725,main,word,,way,road,,Lexicon gloss: way. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8608,main,word,,three,,,Lexicon gloss: a three. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1528,main,word,,tent,,,Lexicon gloss: tent. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8344,main,word,,return,turn back; bring back,Use bring back for the causative stem.,Lexicon gloss: turn back. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1884,main,word,,mountain,,,Lexicon gloss: mountain. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+7089,main,word,,host,army,Yahweh of hosts is fixed by style rule 5.,Lexicon gloss: army. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+3219,main,word,,sea,,,Lexicon gloss: sea. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+3330,main,word,,go out,,,Lexicon gloss: go out. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+5954,main,word,,servant,slave,Judgment call: servant is the traditional word and covers a court official; slave only where the context is bondage. Decide before approval.,Lexicon gloss: slave. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+7457,main,word,,holiness,holy place; holy thing,Lexicon gloss is apartness. Use holy place or holy thing where the Hebrew names the place or object.,Lexicon gloss: apartness. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1671,main,word,,blood,,,Lexicon gloss: blood. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+5153,main,word,,judgment,justice; ordinance,,Lexicon gloss: judgment. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+7140,main,word,,command,charge,,Lexicon gloss: lay charge. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+6284,main,word,,go up,ascend; offer up,Use offer up where the object is an offering.,Lexicon gloss: go up. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+2680,main,word,,sword,,,Lexicon gloss: sword. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+4304,main,word,,altar,,,Lexicon gloss: altar. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+2494,main,word,,five,,,Lexicon gloss: five. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+7782,main,word,,much,many; great,Use many with a plural noun.,Lexicon gloss: much. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+907,main,word,,build,,,Lexicon gloss: build. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1006,main,word,,man,mankind,"Genesis 1 to 5 needs the word sheet: man with the article (the man), mankind for the whole race, and a possible personal name Adam. Decide there.",Lexicon gloss: man. Held for a careful sheet check in the Genesis 1 to 5 test.,proposed
+6806,main,word,,nose,nostril,Literal sense. See the anger sense for the idiom.,Lexicon gloss: nostril. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+6806,anger,word,,anger,,"The common idiom, as in his anger burned (literally, his nose burned).",Extended sense of nose; gives a different English word (style rule 4).,proposed
+2212,main,word,,month,new moon,,Lexicon gloss: newness. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8041,main,word,,evil,,,Lexicon gloss: evil. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1249,main,word,,great,,,Lexicon gloss: great. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+1102,main,word,,covenant,,,Lexicon gloss: covenant. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+8933,main,word,,chief,prince; captain; official,Judgment call: sar covers several ranks. Decide before approval.,Lexicon gloss: chieftain. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed
+5563,main,word,,fall,,,Lexicon gloss: fall. First proposal from the lexicon entry and the influence list; read the word sheet before approving.,proposed

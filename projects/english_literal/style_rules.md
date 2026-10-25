@@ -71,6 +71,42 @@ Each rule is marked:
 - **[proposed]** A rendering is a short phrase, not a sentence. If a lemma needs
   three words to render, the glossary says so in `rule`.
 
+## 4a. Transliterated words
+
+- **[decided]** This translation keeps some Hebrew words in plain transliteration, for
+  readers who want to know the text better. Example: **yovel** (H3104) in all 27 uses.
+  Glossary category `translit`.
+- **[decided]** A word qualifies when it passes two of these five tests:
+  1. English has no faithful word, or the usual English word misleads.
+  2. The word belongs to a closed set (feast, offering, object, garment, measure).
+  3. The Hebrew links passages that English separates (the KJV uses several words for one Hebrew word).
+  4. The identity or meaning of the thing is uncertain.
+  5. The text plays on or explains the word.
+  Weights and measures qualify automatically (source units are kept).
+  **Public recognition also qualifies automatically (test 6):** a word that the public
+  already knows by its Hebrew sound is transliterated (for example Yom Kippur, Pesach,
+  Sukkot, Shavuot, matzah, menorah). Only names that occur in the text count; later
+  names for days that the text does not name (Rosh Hashanah, Hanukkah) are not imported.
+  Motifs and cross references are supporting evidence only.
+  A word that is less widely known does not qualify by test 6; it needs two of tests 1 to 5.
+  Torah and shalom qualify by test 6.
+- **[decided]** Phrases stay together. When a transliterated word belongs to a phrase, the
+  other words of the phrase are transliterated too: Yom Kippur (yom hakippurim), Yom Teruah,
+  tohu va vohu. Inside such a phrase `yom` is "yom", not "day". The glossary holds this as a
+  separate sense (for example `yom`, sense "in festival names") whose rule names the contexts.
+- **[decided]** Puns stay together. When the text plays on two words and one of them qualifies,
+  both are transliterated: Pesach and pasach (Exodus 12), Hevel (Abel) and hevel.
+- **[decided]** Spelling: a bet without a dagesh is written v (yovel, hevel, tevah, vohu); a bet
+  with a dagesh is written b (bedolach, bareqet). Plain letters, no diacritics. One spelling
+  per lemma, taken from the form in the best-known verse.
+- **[decided]** Form: the familiar English form first (Sheol, Amen, Selah) unless it hides a
+  link (test 3). Otherwise a plain transliteration with no diacritics (yovel, shofar, kapporet).
+- **[decided]** Each term has a level in its rule field: `core` (always transliterated) or
+  `optional` (study edition only). The same database can print a reading edition and a study edition.
+- **[decided]** A first-use gloss note per book, and a printed list of terms.
+- **[open]** Trial: set A (30 lemmas, docs/translit_candidates.md) on Leviticus 25, Joshua 6,
+  Ruth 4, Ecclesiastes 1 and Exodus 28. Judge how clusters read, then decide on sets B and C.
+
 ## 5. The divine name and titles of God
 
 - **[decided]** יהוה is rendered **Yahweh**.

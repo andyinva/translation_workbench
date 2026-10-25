@@ -280,7 +280,7 @@ class ProjectSchema(Schema):
             glossary_id       INTEGER PRIMARY KEY,
             lemma_id          INTEGER NOT NULL,
             sense_label       TEXT NOT NULL DEFAULT 'main',
-            category          TEXT NOT NULL DEFAULT 'word',  -- word, name, divine_name, term
+            category          TEXT NOT NULL DEFAULT 'word',  -- word, name, divine_name, term, translit
             tier              INTEGER,          -- for names: 1 always transliterate, 2 when the
                                                 -- text explains the name, 3 use the common form
             rendering         TEXT NOT NULL,    -- the approved target-language rendering
@@ -375,6 +375,29 @@ class ProjectSchema(Schema):
             glossary_id  INTEGER REFERENCES glossary(glossary_id),
             session_id   INTEGER REFERENCES sessions(session_id),
             created_at   TEXT NOT NULL DEFAULT (datetime('now'))
+        )
+        """,
+        # Phrases: words that must be written together (Yom Kippur, tohu va vohu). See phrases.py.
+        """
+        CREATE TABLE IF NOT EXISTS glossary_phrases (
+            phrase_id   INTEGER PRIMARY KEY,
+            name        TEXT NOT NULL UNIQUE,
+            rendering   TEXT NOT NULL,
+            rule        TEXT,
+            reason      TEXT,
+            status      TEXT NOT NULL DEFAULT 'proposed',
+            session_id  INTEGER REFERENCES sessions(session_id),
+            created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+            updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+        )
+        """,
+        """
+        CREATE TABLE IF NOT EXISTS phrase_members (
+            phrase_id   INTEGER NOT NULL REFERENCES glossary_phrases(phrase_id),
+            seq         INTEGER NOT NULL,
+            lemma_id    INTEGER NOT NULL,
+            sense_label TEXT NOT NULL DEFAULT 'main',
+            PRIMARY KEY (phrase_id, seq)
         )
         """,
         "CREATE INDEX IF NOT EXISTS idx_drafts_ref  ON drafts(book, chapter, verse)",
